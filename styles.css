@@ -8,8 +8,11 @@ body {
 
 }
 
-a{
-
+a:visited{
+    color: rgba(0,0,0,.87);
+}
+a:hover{
+    color: rgba(46, 79, 88, 0.87);
 }
 input:focus{
     outline: none;
